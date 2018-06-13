@@ -1,0 +1,11 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0 2vw;
+    background-color: aqua;
+}
+.info>div>strong:not(:first-child){
+    margin-left: 1.5rem;
+}
+.contact>div>strong:not(:first-child){
+    margin-left: 1.5rem;
+}
