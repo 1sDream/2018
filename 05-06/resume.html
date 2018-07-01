@@ -13,7 +13,7 @@
             bottom: 2em;
         }
     </style>
-</head>
+</head> 
 <body>
     <select name="styles" id="styles" onchange="switchStyle()">
         <option value="style_1" >Style 1</option>
@@ -102,7 +102,7 @@
     function switchStyle(){
         var selectedValue = document.getElementById("styles").value;
         var stylesheet = document.getElementById("mystyle");
-        stylesheet.href = "css/"+selectedValue+".css";
+        stylesheet.href = 'css/'+selectedValue+'.css';
     }
 </script>
 </body>
